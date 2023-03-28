@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="flex flex-col items-center">
+    <section class="w-full xl:w-[1144px] px-[4vw] md:px-[6vw] xl:px-0 overflow-x-hidden">
+        <div class="flex xl:justify-between relative w-[300vw] md:gap-[6vw] xl:gap-0 md:w-[150%] transition-all ease-linear" id="slider">
+            <div class="border border-g121-darksalmon rounded-[16px] flex flex-col gap-[12px] py-[25px] px-[28px] w-[92vw] md:w-[33.3%] xl:w-[360px]">
+                <img src="./img/star-icon.png" alt="" class="w-[60px] h-[60px]">
+                <h2 class="font-semibold text-g121-salmon text-[1.4rem] mb-[2px]">Diferencial nº1</h2>
+                <p class="text-[1.4rem] text-[#1F1F5880]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ultrices felis id porta. Mauris euismod, erat nec iaculis vehicula, nisi nulla sollicitudin.</p>
+            </div>
+            <div class="border border-g121-darksalmon rounded-[16px] flex flex-col gap-[12px] py-[25px] px-[28px] w-[92vw] md:w-[calc(33.3%_-_10px)] xl:w-[360px] ml-16 xl:ml-0">
+                <img src="./img/star-icon.png" alt="" class="w-[60px] h-[60px]">
+                <h2 class="font-semibold text-g121-salmon text-[1.4rem] mb-[2px]">Diferencial nº2</h2>
+                <p class="text-[1.4rem] text-[#1F1F5880]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ultrices felis id porta. Mauris euismod, erat nec iaculis vehicula, nisi nulla sollicitudin.</p>
+            </div>
+            <div class="border border-g121-darksalmon rounded-[16px] flex flex-col gap-[12px] py-[25px] px-[28px] w-[92vw] md:w-[calc(33.3%_-_10px)] xl:w-[360px] ml-16 xl:ml-0">
+                <img src="./img/star-icon.png" alt="" class="w-[60px] h-[60px]">
+                <h2 class="font-semibold text-g121-salmon text-[1.4rem] mb-[2px]">Diferencial nº3</h2>
+                <p class="text-[1.4rem] text-[#1F1F5880]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ultrices felis id porta. Mauris euismod, erat nec iaculis vehicula, nisi nulla sollicitudin.</p>
+            </div>
+        </div>
+        <ul class="flex gap-[10px] justify-center mt-[32px]" id="sliderPageSelector">
+            <li class="">
+                <input type="radio" name="manualSelection" id="radio1" class="peer hidden slide-opt1 page-option" value="1" >
+                <label for="radio1" class="inline-block w-[15px] h-[15px] bg-g121-lightorange peer-checked:bg-g121-darksalmon rounded-full transition-all ease-linear"> </label>
+            </li>
+            <li class="">
+                <input type="radio" name="manualSelection" id="radio2" class="peer hidden slide-opt2 page-option" value="2" >
+                <label for="radio2" class="inline-block w-[15px] h-[15px] bg-g121-lightorange peer-checked:bg-g121-darksalmon rounded-full transition-all ease-linear"> </label>
+            </li>
+            <li class="md:hidden">
+                <input type="radio" name="manualSelection" id="radio3" class="peer hidden slide-opt3 page-option"  value="3">
+                <label for="radio3" class="inline-block w-[15px] h-[15px] bg-g121-lightorange peer-checked:bg-g121-darksalmon rounded-full transition-all ease-linear"> </label>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
